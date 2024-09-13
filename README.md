@@ -18,16 +18,19 @@ This project demonstrates the use of Ocelot as an API Gateway in a .NET applicat
 
 ### Installation
 
-1. **Clone the Repository**
+**Clone the Repository**
 
    ```bash
    git clone https://github.com/mahmut-bilir/ApiGatewayDemo.git
    cd ApiGatewayDemo
+
+**Restore NuGet Packages**
+   - dotnet restore
    
- 2. **Running the Application**
+**Running the Application**
    - dotnet run
     
-4. **Test Routes**
+**Test Routes**
 
 Access the configured routes via:
 
