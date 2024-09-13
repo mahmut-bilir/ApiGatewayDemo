@@ -21,5 +21,5 @@ This project demonstrates the use of Ocelot as an API Gateway in a .NET applicat
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/mahmut-bilir/ApiGatewayDemo.git
+   cd ApiGatewayDemo
