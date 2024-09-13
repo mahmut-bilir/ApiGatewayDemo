@@ -24,7 +24,7 @@ This project demonstrates the use of Ocelot as an API Gateway in a .NET applicat
    git clone https://github.com/mahmut-bilir/ApiGatewayDemo.git
    cd ApiGatewayDemo
    
- 2. **Run**
+ 2. **Running the Application**
    - dotnet run
     
 4. **Test Routes**
