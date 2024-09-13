@@ -28,5 +28,5 @@ This project demonstrates the use of Ocelot as an API Gateway in a .NET applicat
 
 Access the configured routes via:
 
-## http://localhost:5000/gateway/products for products
-## http://localhost:5000/gateway/orders for orders
+# http://localhost:5000/gateway/products for products
+# http://localhost:5000/gateway/orders for orders
