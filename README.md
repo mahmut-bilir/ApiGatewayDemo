@@ -23,10 +23,13 @@ This project demonstrates the use of Ocelot as an API Gateway in a .NET applicat
    ```bash
    git clone https://github.com/mahmut-bilir/ApiGatewayDemo.git
    cd ApiGatewayDemo
-
- 2. **Test Routes**
+   
+ 2. **Run**
+    dotnet run
+    
+4. **Test Routes**
 
 Access the configured routes via:
 
-# http://localhost:5000/gateway/products for products
-# http://localhost:5000/gateway/orders for orders
+**http://localhost:5000/gateway/products for products**
+**http://localhost:5000/gateway/orders for orders**
