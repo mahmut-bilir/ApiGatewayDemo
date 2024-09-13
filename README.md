@@ -1,24 +1,17 @@
-# ApiGatewayDemo
+This project includes an API Gateway built using .NET 8 and two microservices (Products API and Orders API). The API Gateway is configured using Ocelot and handles routing operations.
 
-Bu proje, .NET 8 kullanılarak oluşturulmuş bir API Gateway ve iki mikro hizmet (Products API ve Orders API) içerir. API Gateway, Ocelot kullanılarak yapılandırılmıştır ve yönlendirme işlemlerini yönetir.
+Projects
+ApiGateway
+The API Gateway is an API gateway configured using Ocelot. It routes requests to microservices.
 
-## Projeler
+Port: http://localhost:5000
+Configuration File: ocelot.json
+ProductsApi
+The Products API is a microservice that provides data about products.
 
-### ApiGateway
-
-API Gateway, Ocelot kullanılarak yapılandırılmış bir API geçiş kapısıdır. Mikro hizmetlere yapılan istekleri yönlendirir.
-
-- **Port:** `http://localhost:5000`
-- **Yapılandırma Dosyası:** `ocelot.json`
-
-### ProductsApi
-
-Products API, ürünlerle ilgili verileri sunan bir mikro hizmettir.
-
-- **Port:** `http://localhost:5001`
-- **Endpoint:** `/api/products`
-- **Örnek Yanıt:**
-  ```json
-  {
-    "Message": "Products API is working"
-  }
+Port: http://localhost:5001
+Endpoint: /api/products
+Sample Response:
+{
+"Message": "Products API is working"
+}
