@@ -1,18 +1,25 @@
-This project includes an API Gateway and two microservices (Products API and Orders API) built using .NET 8. The API Gateway is configured with Ocelot and manages routing operations.
+# Ocelot API Gateway Project
 
-Projects
-ApiGateway
-The API Gateway is an API gateway configured with Ocelot. It routes requests to the microservices.
+## Overview
 
-Port: http://localhost:5000
-Configuration File: ocelot.json
-ProductsApi
-The Products API is a microservice that provides data related to products.
+This project demonstrates the use of Ocelot as an API Gateway in a .NET application. Ocelot is a lightweight API Gateway that is used to route requests to various downstream services, manage load balancing, and provide various other API management functionalities.
 
-Port: http://localhost:5001
-Endpoint: /api/products
-Sample Response:
+## Project Structure
 
-{
-  "Message": "Products API is working"
-}
+- **`ocelot.json`**: Configuration file for Ocelot, defining routing rules and downstream services.
+- **`Program.cs`**: Main entry point of the .NET application where Ocelot is configured and used.
+
+## Setup and Configuration
+
+### Prerequisites
+
+- .NET 6.0 or later
+- NuGet Package Manager
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
